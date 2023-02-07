@@ -148,3 +148,18 @@ section {
 }
 
 /* Resume section */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume .title{
+    color: #474747;
+}
+.resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+}
+.resume .description{
+    color: #757575;
+}
