@@ -30,7 +30,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 .nav-title {
@@ -184,7 +184,7 @@ section {
     text-align: left;
 }
 
-.contact input[type="text"],input[type="emial"] textarea{
+.contact input[type="text"],input[type="emial"], textarea{
     margin-bottom: 24px;
     border: 0;
     width: 100%;
@@ -192,4 +192,7 @@ section {
 }
 input{
     height: 64px;
+}
+.contact a{
+    text-decoration: none;
 }
